@@ -1,0 +1,26 @@
+body {
+	background-color: #4717F6;
+	text-align: center;
+	line-height: 1;
+}
+
+body li{
+	background-color: #0E0816;
+	color: #E7DFDD;
+	width: 350px;
+	padding: 25px;
+	margin: 25px;
+	list-style-type: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+	body {
+		background-color: blue;
+	}
+}
